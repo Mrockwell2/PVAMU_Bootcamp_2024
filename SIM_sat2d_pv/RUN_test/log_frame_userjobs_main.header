@@ -1,0 +1,4 @@
+log_frame_userjobs_main byte_order is little_endian
+log_frame_userjobs_main	double	     s	sys.exec.out.time
+log_frame_userjobs_main	double	     s	JOB_dyn.satellite.state_deriv.16.02(derivative)
+log_frame_userjobs_main	double	     s	JOB_dyn.satellite.state_integ.16.03(integration)

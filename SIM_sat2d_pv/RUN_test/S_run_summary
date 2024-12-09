@@ -1,0 +1,51 @@
+
+===============================================================================
+General:
+
+Executable called = /Users/obcrawfo/Documents/intern/PV_Presentations/SIM_sat2d/S_main_Darwin_23.exe
+Input file = RUN_test/input.py
+S_main build time = Tue Nov 26 18:20:38 2024
+Trick version = 19.8.0-beta
+
+===============================================================================
+Build time Environment:
+
+TRICK_CC = /usr/bin/gcc
+TRICK_CFLAGS = -I/opt/homebrew/include -L/opt/homebrew/lib -Wno-unused-command-line-argument -Wall -Wextra -Wshadow -g -I/Users/obcrawfo/mss_dev/trick19/masterU3/isp_pcs/ISP -I/Users/obcrawfo/mss_dev/trick19/masterU3/jeod/models -Imodels
+TRICK_CONVERT_SWIG_FLAGS = 
+TRICK_CPFLAGS = 
+TRICK_CXX = /usr/bin/g++
+TRICK_CXXFLAGS =  -I/opt/homebrew/include -L/opt/homebrew/lib -Wno-unused-command-line-argument -Wall -Wextra -Wshadow -g -Imodels
+TRICK_DEBUG = 1
+TRICK_EDITOR = vi
+TRICK_EXEC_LINK_LIBS =  -L/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12/lib/python3.12/config-3.12-darwin -lpython3.12 -ldl -framework CoreFoundation -lpython3.12 -ldl -framework CoreFoundation   -Wl,-rpath,/opt/homebrew/opt/udunits/lib -L/opt/homebrew/opt/udunits/lib -ludunits2  -lm -ldl
+TRICK_EXT_LIB_DIRS = 
+TRICK_FORCE_32BIT = OFF
+TRICK_GTE_EXT = 
+TRICK_HOME = /Users/obcrawfo/trick/trick-19.8.0
+TRICK_HOST_CPU = Darwin_23
+TRICK_HOST_CPU_USER_SUFFIX = 
+TRICK_HOST_TYPE = Darwin
+TRICK_ICGFLAGS = 
+TRICK_ICG_COMPAT15 = 
+TRICK_ICG_EXCLUDE = /Users/obcrawfo/mss_dev/trick19/masterU3/isp_pcs/ISP
+TRICK_ICG_IGNORE_TYPES = 
+TRICK_ICG_NOCOMMENT = 
+TRICK_LDFLAGS = 
+TRICK_MAKE = 
+TRICK_PATH = /Users/obcrawfo/trick/trick-19.8.0/libexec/bin
+TRICK_PRINTER_NAME = 
+TRICK_PRINT_CMD = lpr
+TRICK_PYTHON_PATH = 
+TRICK_SFLAGS = 
+TRICK_SWIG_EXCLUDE = 
+TRICK_SYSTEM_CFLAGS = -isystem/Users/obcrawfo/trick/trick-19.8.0/trick_source -isystem/Users/obcrawfo/trick/trick-19.8.0/include -isystem/Users/obcrawfo/trick/trick-19.8.0/include/trick/compat -DTRICK_VER=19 -DTRICK_MINOR=8 -fpic -I/opt/homebrew/opt/udunits/include -DUSE_ER7_UTILS_INTEGRATORS -fcolor-diagnostics -fexceptions 
+TRICK_SYSTEM_CXXFLAGS = -isystem/Users/obcrawfo/trick/trick-19.8.0/trick_source -isystem/Users/obcrawfo/trick/trick-19.8.0/include -isystem/Users/obcrawfo/trick/trick-19.8.0/include/trick/compat -DTRICK_VER=19 -DTRICK_MINOR=8 -fpic -I/opt/homebrew/opt/udunits/include -DUSE_ER7_UTILS_INTEGRATORS -fcolor-diagnostics 
+TRICK_SYSTEM_LDFLAGS = 
+TRICK_USER_CSHRC = /Users/obcrawfo/.Trick_user_cshrc
+TRICK_USER_HOME = /Users/obcrawfo/trick_sims
+TRICK_USER_LINK_LIBS = -L/Users/obcrawfo/mss_dev/trick19/masterU3/mss/lib_Darwin_23
+TRICK_USER_PROFILE = /Users/obcrawfo/.Trick_user_profile
+TRICK_VER = 19.8.0-beta
+XML_CATALOG_FILES = /Users/obcrawfo/trick/trick-19.8.0/libexec/trick_source/data_products/DPX/XML/catalog.xml
+

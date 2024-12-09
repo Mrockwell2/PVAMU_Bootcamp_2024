@@ -1,0 +1,25 @@
+Output for /Users/obcrawfo/trick/trick-19.8.0/libexec/trick/configuration_processor version 19.8.0-beta- at Tue Nov 26 18:20:38 2024
+
+Parsing    S_define
+Processing S_define
+Processing /Users/obcrawfo/trick/trick-19.8.0/share/trick/sim_objects/default_trick_sys.sm
+Processing SysSimObject
+Processing MemoryManagerSimObject
+Processing CheckPointRestartSimObject
+Processing SieSimObject
+Processing CommandLineArgumentsSimObject
+Processing MessageSimObject
+Processing JITSimObject
+Processing InputProcessorSimObject
+Processing ThreadProcessEventSimObject
+Processing EventManagerSimObject
+Processing VariableServerSimObject
+Processing DataRecordDispatcherSimObject
+Processing RTSyncSimObject
+Processing FrameLogSimObject
+Processing UnitTestSimObject
+Processing UdUnitsSimObject
+Continuing S_define
+Processing SatelliteSimObject
+Finished   S_define
+Writing    S_source.c

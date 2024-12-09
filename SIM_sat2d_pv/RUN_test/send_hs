@@ -1,0 +1,4 @@
+|L   1|2024/12/02,10:35:01|JSLAL0523090050| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   3|2024/12/02,10:35:01|JSLAL0523090050| |T 0|0.000000| Variable Server could not find variable trick_master_slave.master.num_slaves.
+|L   1|2024/12/02,10:35:10|JSLAL0523090050| |T 0|0.000000| Freeze OFF.
+|L   1|2024/12/02,10:35:26|JSLAL0523090050| |T 0|19729.100000| Freeze ON. Simulation time holding at 19729.100000 seconds.

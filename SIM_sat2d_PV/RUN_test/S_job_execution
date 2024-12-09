@@ -1,0 +1,179 @@
+Executive time tic value (tics/second) information
+    time tic value = 1000000
+
+Thread information
+Trick::Threads (Child_0)
+    process_type = scheduled = 0
+    trigger type = mutex
+    number of scheduled jobs = 7
+    from Trick::ThreadBase
+    pthread_id = 0x1fda78f40
+    process_id = 33548
+    rt_priority = 0
+
+Job information
+Enabled | PID |Class                    | Phase |  Start   |  Cycle   |   Stop   | ID  | Job Name
+=================================================================================================
+Initialization:
+      1 |   0 |default_data             | 0     |          |          |          |  3.00 | trick_cpr.cpr.find_write_checkpoint_jobs
+      1 |   0 |default_data             | 0     |          |          |          |  4.00 | trick_sie.sie.process_sim_args
+      1 |   0 |default_data             | 0     |          |          |          | 12.00 | trick_real_time.rt_sync.get_sim_start_time
+      1 |   0 |default_data             | 60000 |          |          |          |  1.00 | trick_sys.sched.get_freeze_job
+      1 |   0 |default_data             | 60000 |          |          |          |  6.00 | trick_message.mpublisher.subscribe
+      1 |   0 |default_data             | 60000 |          |          |          |  6.01 | trick_message.mpublisher.subscribe
+      1 |   0 |default_data             | 60000 |          |          |          |  6.02 | trick_message.mpublisher.subscribe
+      1 |   0 |default_data             | 60000 |          |          |          |  6.03 | trick_message.mpublisher.subscribe
+      1 |   0 |default_data             | 60000 |          |          |          |  6.04 | trick_message.mpublisher.subscribe
+      1 |   0 |default_data             | 60000 |          |          |          |  6.05 | trick_message.mdevice.default_data
+      1 |   0 |default_data             | 60000 |          |          |          |  9.00 | trick_em.create_thread_process_event
+      1 |   0 |default_data             | 60000 |          |          |          | 10.00 | trick_vs.vs.default_data
+      1 |   0 |default_data             | 60000 |          |          |          | 13.02 | trick_frame_log.frame_log.default_data
+      1 |   0 |default_data             | 60000 |          |          |          | 16.00 | dyn.satellite.default_data
+      1 |   0 |default_data             | 65534 |          |          |          | 17.00 | dyn_integloop.integ_sched.rebuild_jobs
+      1 |   0 |default_data             | 65535 |          |          |          | 15.00 | trick_udunits.udunits.read_default_xml
+      1 |   0 |initialization           | 0     |          |          |          | 10.01 | trick_vs.vs.init
+      1 |   0 |initialization           | 1     |          |          |          |  3.01 | trick_cpr.cpr.write_pre_init_checkpoint
+      1 |   0 |initialization           | 1     |          |          |          |  6.06 | trick_message.mpublisher.init
+      1 |   0 |initialization           | 1     |          |          |          |  6.07 | trick_message.mfile.init
+      1 |   0 |initialization           | 1     |          |          |          |  6.08 | trick_message.pfile.init
+      1 |   0 |initialization           | 1     |          |          |          |  6.09 | trick_message.mdevice.init
+      1 |   0 |initialization           | 1     |          |          |          | 10.02 | trick_vs.Trick::launch_all_external_applications
+      1 |   0 |initialization           | 1     |          |          |          | 11.00 | trick_data_record.drd.remove_files
+      1 |   0 |initialization           | 60000 |          |          |          | 13.03 | trick_frame_log.frame_log.create_DP_files
+      1 |   0 |initialization           | 60000 |          |          |          | 16.01 | dyn.satellite.state_init
+      1 |   0 |initialization           | 65534 |          |          |          |  1.01 | trick_sys.exec_collect_init
+      1 |   0 |initialization           | 65534 |          |          |          |  1.02 | trick_sys.sched.write_s_run_summary
+      1 |   0 |initialization           | 65534 |          |          |          | 11.01 | trick_data_record.drd.init
+      1 |   0 |initialization           | 65534 |          |          |          | 18.01 | trick_data_record_group_frame_userjobs_main.init
+      1 |   0 |initialization           | 65534 |          |          |          | 19.01 | trick_data_record_group_frame_trickjobs.init
+      1 |   0 |initialization           | 65534 |          |          |          | 20.01 | trick_data_record_group_frame.init
+      1 |   0 |initialization           | 65534 |          |          |          | 21.01 | trick_data_record_group_sat2d.init
+      1 |   0 |initialization           | 65535 |          |          |          |  1.03 | trick_sys.sched.check_all_jobs_handled
+      1 |   0 |initialization           | 65535 |          |          |          |  1.04 | trick_sys.sched.check_all_job_cycle_times
+      1 |   0 |initialization           | 65535 |          |          |          |  1.05 | trick_sys.sched.create_threads
+      1 |   0 |initialization           | 65535 |          |          |          |  1.06 | trick_sys.sched.write_s_job_execution
+      1 |   0 |initialization           | 65535 |          |          |          |  1.07 | trick_sys.sched.async_freeze_to_exec_command
+      1 |   0 |initialization           | 65535 |          |          |          |  3.02 | trick_cpr.cpr.write_post_init_checkpoint
+      1 |   0 |initialization           | 65535 |          |          |          |  9.01 | trick_em.ep.add_pending_events
+      1 |   0 |initialization           | 65535 |          |          |          | 12.01 | trick_real_time.rt_sync.rt_clock->calc_sim_time_ratio
+      1 |   0 |initialization           | 65535 |          |          |          | 12.02 | trick_real_time.rt_sync.initialize
+      1 |   0 |initialization           | 65535 |          |          |          | 12.03 | trick_real_time.rt_sync.start_realtime
+      1 |   0 |initialization           | 65535 |          |          |          | 12.04 | trick_real_time.rt_sync.get_sim_end_init_time
+      1 |   0 |initialization           | 65535 |          |          |          | 17.01 | dyn_integloop.integ_sched.get_first_step_deriv_from_integrator
+      1 |   0 |initialization           | 65535 |          |          |          | 17.02 | dyn_integloop.integ_sched.call_deriv_jobs
+
+===================================================================================================
+Scheduled Loop:
+
+Thread 0:
+      1 |   0 |automatic_last           | 60000 | 0.000000 |        1 |    1e+37 | 10.07 | trick_vs.vs.copy_and_write_scheduled
+      1 |   0 |data_record              | 60000 | 0.000000 |      0.1 |    1e+37 | 21.99 | trick_data_record_group_sat2d.data_record
+      1 |   0 |system_checkpoint        | 0     | 0.000000 |        1 |    1e+37 |  3.03 | trick_cpr.cpr.write_checkpoint
+      1 |   0 |system_checkpoint        | 0     | 0.000000 |        1 |    1e+37 |  3.04 | trick_cpr.cpr.safestore_checkpoint
+      1 |   0 |system_advance_sim_time  | 60000 | 0.000000 |        1 |    1e+37 |  1.15 | trick_sys.sched.advance_sim_time
+      1 |   0 |system_moding            | 60000 | 0.000000 |        1 |    1e+37 |  1.11 | trick_sys.sched.sched_freeze_to_exec_command
+      1 |   0 |integ_loop               | 60000 | 0.000000 |    0.002 |    1e+37 | 17.03 | dyn_integloop.integ_sched.integrate
+
+
+===================================================================================================
+Top of Frame:
+
+Thread 0:
+      1 |   0 |top_of_frame             | 60000 | 0.000000 |        1 |    1e+37 |  9.03 | trick_em.ep.add_pending_events
+      1 |   0 |top_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 10.06 | trick_vs.vs.copy_and_write_top
+
+===================================================================================================
+End of Frame:
+
+Thread 0:
+      1 |   0 |end_of_frame             | 0     | 0.000000 |        1 |    1e+37 |  3.07 | trick_cpr.cpr.load_checkpoint_job
+      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 |  1.12 | trick_sys.sched.sched_freeze_to_exec_command
+      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 |  1.13 | trick_sys.sched.async_freeze_to_exec_command
+      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 11.02 | trick_data_record.drd.signal_thread
+      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 18.02 | trick_data_record_group_frame_userjobs_main.write_data
+      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 19.02 | trick_data_record_group_frame_trickjobs.write_data
+      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 20.02 | trick_data_record_group_frame.write_data
+      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 21.02 | trick_data_record_group_sat2d.write_data
+      1 |   0 |end_of_frame             | 65532 | 0.000000 |        1 |    1e+37 | 28.03 | trick_data_record_group_frame_userjobs_main.adjust_time
+      1 |   0 |end_of_frame             | 65532 | 0.000000 |        1 |    1e+37 | 29.03 | trick_data_record_group_frame_trickjobs.adjust_time
+      1 |   0 |end_of_frame             | 65532 | 0.000000 |        1 |    1e+37 | 30.03 | trick_data_record_group_frame.adjust_time
+      1 |   0 |end_of_frame             | 65533 | 0.000000 |      0.1 |    1e+37 | 18.99 | trick_data_record_group_frame_userjobs_main.data_record
+      1 |   0 |end_of_frame             | 65535 | 0.000000 |        1 |    1e+37 | 12.09 | trick_real_time.rt_sync.rt_monitor
+      1 |   0 |end_of_frame             | 65535 | 0.000000 |        1 |    1e+37 | 28.02 | trick_data_record_group_frame_userjobs_main.frame_log_clear
+      1 |   0 |end_of_frame             | 65535 | 0.000000 |      0.1 |    1e+37 | 19.99 | trick_data_record_group_frame_trickjobs.data_record
+      1 |   0 |end_of_frame             | 65535 | 0.000000 |        1 |    1e+37 | 29.02 | trick_data_record_group_frame_trickjobs.frame_log_clear
+      1 |   0 |end_of_frame             | 65535 | 0.000000 |      0.1 |    1e+37 | 20.99 | trick_data_record_group_frame.data_record
+      1 |   0 |end_of_frame             | 65535 | 0.000000 |        1 |    1e+37 | 30.02 | trick_data_record_group_frame.frame_log_clear
+
+===================================================================================================
+Freeze Loop:
+      1 |   0 |freeze_init              | 60000 |          |          |          |  1.14 | trick_sys.sched.init_freeze_scheduled
+      1 |   0 |freeze_init              | 60000 |          |          |          | 10.08 | trick_vs.vs.freeze_init
+      1 |   0 |freeze_init              | 60000 |          |          |          | 12.06 | trick_real_time.rt_sync.freeze_init
+      1 |   0 |freeze_automatic         | 60000 | 0.000000 |        1 |    1e+37 | 10.09 | trick_vs.vs.copy_and_write_freeze_scheduled
+      1 |   0 |freeze                   | 0     |          |          |          |  3.06 | trick_cpr.cpr.load_checkpoint_job
+      1 |   0 |freeze                   | 60000 |          |          |          | 10.10 | trick_vs.vs.copy_and_write_freeze
+      1 |   0 |freeze                   | 65535 |          |          |          | 12.07 | trick_real_time.rt_sync.freeze_pause
+      1 |   0 |unfreeze                 | 60000 |          |          |          | 12.08 | trick_real_time.rt_sync.unfreeze
+
+===================================================================================================
+Shutdown:
+      1 |   0 |shutdown                 | 0     |          |          |          |  3.05 | trick_cpr.cpr.write_end_checkpoint
+      1 |   0 |shutdown                 | 60000 |          |          |          |  6.13 | trick_message.mtcout.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          |  6.14 | trick_message.mdevice.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          | 10.11 | trick_vs.vs.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          | 11.05 | trick_data_record.drd.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          | 18.06 | trick_data_record_group_frame_userjobs_main.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          | 19.06 | trick_data_record_group_frame_trickjobs.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          | 20.06 | trick_data_record_group_frame.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          | 21.06 | trick_data_record_group_sat2d.shutdown
+      1 |   0 |shutdown                 | 65535 |          |          |          |  8.03 | trick_ip.ip.shutdown
+      1 |   0 |shutdown                 | 65535 |          |          |          | 12.10 | trick_real_time.rt_sync.get_sim_end_time
+      1 |   0 |shutdown                 | 65535 |          |          |          | 12.11 | trick_real_time.rt_sync.shutdown
+      1 |   0 |shutdown                 | 65535 |          |          |          | 13.06 | trick_frame_log.frame_log.shutdown
+      1 |   0 |shutdown                 | 65535 |          |          |          | 14.00 | trick_utest.unit_tests.write_output
+
+===================================================================================================
+CheckPointRestart :
+
+      1 |   0 |checkpoint               | 0     |          |          |          |  1.08 | trick_sys.sched.checkpoint
+      1 |   0 |checkpoint               | 60000 |          |          |          | 18.03 | trick_data_record_group_frame_userjobs_main.checkpoint
+      1 |   0 |checkpoint               | 60000 |          |          |          | 19.03 | trick_data_record_group_frame_trickjobs.checkpoint
+      1 |   0 |checkpoint               | 60000 |          |          |          | 20.03 | trick_data_record_group_frame.checkpoint
+      1 |   0 |checkpoint               | 60000 |          |          |          | 21.03 | trick_data_record_group_sat2d.checkpoint
+      1 |   0 |post_checkpoint          | 0     |          |          |          |  1.09 | trick_sys.sched.post_checkpoint
+      1 |   0 |post_checkpoint          | 60000 |          |          |          | 18.04 | trick_data_record_group_frame_userjobs_main.clear_checkpoint_vars
+      1 |   0 |post_checkpoint          | 60000 |          |          |          | 19.04 | trick_data_record_group_frame_trickjobs.clear_checkpoint_vars
+      1 |   0 |post_checkpoint          | 60000 |          |          |          | 20.04 | trick_data_record_group_frame.clear_checkpoint_vars
+      1 |   0 |post_checkpoint          | 60000 |          |          |          | 21.04 | trick_data_record_group_sat2d.clear_checkpoint_vars
+      1 |   0 |preload_checkpoint       | 0     |          |          |          | 17.04 | dyn_integloop.integ_sched.restart_checkpoint
+      1 |   0 |preload_checkpoint       | 60000 |          |          |          |  9.06 | trick_em.em.preload_checkpoint
+      1 |   0 |preload_checkpoint       | 60000 |          |          |          |  9.07 | trick_em.ep.preload_checkpoint
+      1 |   0 |preload_checkpoint       | 60000 |          |          |          | 10.03 | trick_vs.vs.suspendPreCheckpointReload
+      1 |   0 |preload_checkpoint       | 60000 |          |          |          | 11.03 | trick_data_record.drd.preload_checkpoint
+      1 |   0 |restart                  | 1     |          |          |          |  6.11 | trick_message.mdevice.restart
+      1 |   0 |restart                  | 1     |          |          |          |  6.12 | trick_message.message_file_manager.restart
+      1 |   0 |restart                  | 60000 |          |          |          |  8.02 | trick_ip.ip.restart
+      1 |   0 |restart                  | 60000 |          |          |          |  9.08 | trick_em.em.restart
+      1 |   0 |restart                  | 60000 |          |          |          | 10.04 | trick_vs.vs.restart
+      1 |   0 |restart                  | 60000 |          |          |          | 10.05 | trick_vs.vs.resumePostCheckpointReload
+      1 |   0 |restart                  | 60000 |          |          |          | 11.04 | trick_data_record.drd.restart
+      1 |   0 |restart                  | 60000 |          |          |          | 13.04 | trick_frame_log.frame_log.clear_data_record_info
+      1 |   0 |restart                  | 60000 |          |          |          | 17.05 | dyn_integloop.integ_sched.rebuild_jobs
+      1 |   0 |restart                  | 60001 |          |          |          | 18.05 | trick_data_record_group_frame_userjobs_main.restart
+      1 |   0 |restart                  | 60001 |          |          |          | 19.05 | trick_data_record_group_frame_trickjobs.restart
+      1 |   0 |restart                  | 60001 |          |          |          | 20.05 | trick_data_record_group_frame.restart
+      1 |   0 |restart                  | 60001 |          |          |          | 21.05 | trick_data_record_group_sat2d.restart
+      1 |   0 |restart                  | 65534 |          |          |          |  1.10 | trick_sys.exec_collect_init
+      1 |   0 |restart                  | 65535 |          |          |          |  9.02 | trick_em.ep.add_pending_events
+      1 |   0 |restart                  | 65535 |          |          |          | 12.05 | trick_real_time.rt_sync.restart
+      1 |   0 |restart                  | 65535 |          |          |          | 13.05 | trick_frame_log.frame_log.restart
+      1 |   0 |restart                  | 65535 |          |          |          | 17.06 | dyn_integloop.integ_sched.get_first_step_deriv_from_integrator
+
+===================================================================================================
+Integration Loop:
+
+      1 |   0 |derivative               | 60000 | 0.000000 |        1 |    1e+37 | 16.02 | dyn.satellite.state_deriv
+      1 |   0 |integration              | 60000 | 0.000000 |        1 |    1e+37 | 16.03 | dyn.satellite.state_integ
+
+===================================================================================================

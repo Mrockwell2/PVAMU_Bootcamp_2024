@@ -1,0 +1,29 @@
+|L   1|2024/11/27,15:08:20|JSLAL0523090050| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   3|2024/11/27,15:08:21|JSLAL0523090050| |T 0|0.000000| Variable Server could not find variable trick_master_slave.master.num_slaves.
+|L   1|2024/11/27,15:08:23|JSLAL0523090050| |T 0|0.000000| Freeze OFF.
+|L   1|2024/11/27,15:08:41|JSLAL0523090050| |T 0|22850.900000| Freeze ON. Simulation time holding at 22850.900000 seconds.
+|L   0|2024/11/27,15:08:42|JSLAL0523090050| |T 0|22850.900000| 
+     REALTIME SHUTDOWN STATS:
+            ACTUAL INIT TIME:        0.184
+         ACTUAL ELAPSED TIME:       21.947
+|L   0|2024/11/27,15:08:42|JSLAL0523090050| |T 0|22850.900000| 
+SIMULATION TERMINATED IN
+  PROCESS: 0
+  ROUTINE: Executive_freeze_loop.cpp:85
+  DIAGNOSTIC: Sim control Shutdown
+
+              SIMULATION START TIME:        0.000
+               SIMULATION STOP TIME:    22850.900
+            SIMULATION ELAPSED TIME:    22850.900
+                 USER CPU TIME USED:       21.122
+               SYSTEM CPU TIME USED:        2.120
+              SIMULATION / CPU TIME:      983.180
+       INITIALIZATION USER CPU TIME:        0.101
+     INITIALIZATION SYSTEM CPU TIME:        0.032
+               SIMULATION RAM USAGE:       88.062MB
+      (External program RAM usage not included!)
+  VOLUNTARY CONTEXT SWITCHES (INIT):          153
+INVOLUNTARY CONTEXT SWITCHES (INIT):          139
+   VOLUNTARY CONTEXT SWITCHES (RUN):           28
+ INVOLUNTARY CONTEXT SWITCHES (RUN):       235191
+

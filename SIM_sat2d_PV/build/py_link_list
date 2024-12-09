@@ -1,0 +1,4 @@
+build/init_swig_modules.o
+build/top.o
+build/Users/obcrawfo/trick/trick-19.8.0/trick_sims/SIM_sat2d/S_source_py.o
+build/Users/obcrawfo/trick/trick-19.8.0/trick_sims/SIM_sat2d/models/satellite/include/Satellite_py.o

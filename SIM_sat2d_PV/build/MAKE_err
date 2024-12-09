@@ -1,0 +1,2 @@
+ld: warning: ignoring duplicate libraries: '-ldl', '-lpython3.12'
+ld: warning: search path '/Users/obcrawfo/mss_dev/trick19/masterU3/mss/lib_Darwin_23' not found
